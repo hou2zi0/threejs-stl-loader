@@ -17,7 +17,7 @@ Loaded STL file of a scanned inscription:
 
 Toon shader applied to emphasize the surface's structure:
 
-![toon shader applied](/dist/imgs/loader_1.png)
+![toon shader applied](/dist/imgs/loader_2.png)
 
 ## Some suggestions STL files
 
