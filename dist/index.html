@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My first three.js app</title>
+		<style>
+			div#container {
+				width: 80%;
+				overflow: hidden;
+				margin: auto;
+			}
+			#myCanvasId {
+				padding-left: 0;
+				padding-right: 0;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+				width: 100%;
+				background-color: bisque;
+			
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div id="controll">
+				<strong>X</strong><span class="button" data-axis="x">-45</span> // <span class="button" data-axis="x">+45</span> |
+				<strong>Y</strong><span class="button" data-axis="y">-45</span> // <span class="button" data-axis="y">+45</span> |
+				<strong>z</strong><span class="button" data-axis="z">-45</span> // <span class="button" data-axis="z">+45</span> ||
+				<strong>Turn</strong><input id="checkbox" type="checkbox">
+			</div>
+			<div style="padding-top: 1em; padding-bottom: 1em;">
+				<span class="col-button" style="background-color: crimson; border: 1em crimson solid;" data-hex="#dc143c"></span>
+				<span class="col-button" style="background-color: grey; border: 1em grey solid;" data-hex="#808080"></span>
+				<span class="col-button" style="background-color: burlywood; border: 1em burlywood solid;" data-hex="#deb887"></span>
+			</div>
+			<div>
+				<input type="file"
+						id="upload"
+						accept="model/stl">
+			</div>
+			<canvas id="myCanvasId"></canvas>
+		</div>
+	</body>
+	<script src="./main.js"></script>
+</html>
