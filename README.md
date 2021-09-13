@@ -18,3 +18,9 @@ Loaded STL file of a scanned inscription:
 Toon shader applied to emphasize the surface's structure:
 
 ![toon shader applied](/dist/imgs/loader_1.png)
+
+## Some suggestions STL files
+
+* [Inscription with coat-of-arms](https://www.myminifactory.com/object/3d-print-inscription-with-coat-of-arms-42437)
+* [Funerary stele depicting a lion](https://www.thingiverse.com/thing:3060320)
+* [Ancient clay tablet](https://www.thingiverse.com/thing:1095107/files)
